@@ -35,3 +35,14 @@
 cp .env.example .env
 pip install -r requirements.txt
 python run_test_agent.py
+
+How I ran test
+I clone git clone https://github.com/NinaTre-alt/strator-test.git
+cd Desktop                                                          - I go first to the Desktop directory
+cd strator-test -                                                   - created folder for the test
+I copied the file and paste it inside strator-test folder
+python -m venv .venv                                                - created a virtual environment
+.\.venv\Scripts\activate                                            - activate the scripts
+pip install -r requirements.txt                                     - install the requirements/libraries
+python run_test_agent.py                                            - run the test
+
